@@ -1,0 +1,8 @@
+task: traffic_sign_detection
+algorithm: yolo26_detect
+data: datasets/processed/traffic_sign_gtsrb/data.yaml
+model: yolo26n.pt
+epochs: 50
+imgsz: 256
+batch: 32
+time_hours: 1.8

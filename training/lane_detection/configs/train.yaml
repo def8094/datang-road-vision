@@ -1,0 +1,16 @@
+task: lane_segmentation
+algorithm: swin_transformer_v2
+data: datasets/processed/lane_tusimple_filtered
+val_data: datasets/processed/lane_tusimple_full
+epochs: 30
+height: 288
+width: 512
+batch_size: 4
+workers: 4
+mask_dilation: 1
+hard_mask: true
+positive_weight: 1.0
+tversky_weight: 1.5
+false_positive_weight: 0.85
+lovasz_weight: 8.0
+time_hours: 6

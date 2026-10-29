@@ -1,0 +1,51 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+.env
+
+# Generated datasets and model artifacts
+data/
+datasets/raw/
+datasets/processed/
+runs/
+weights/
+checkpoints/
+*.pt
+*.pth
+*.onnx
+*.engine
+training/*/runs/
+training/*/weights/
+
+# Generated reports/logs
+logs/*
+!logs/.gitkeep
+reports/dataset_manifest.json
+reports/dataset_manifest.md
+
+# IDE / OS
+.idea/
+.vscode/
+docs/
+Thumbs.db
+*.swp
+
+# WorkBuddy workspace data
+.workbuddy/
+
+# Course materials (copyright, not for public repo)
+docs/*.pdf
+docs/*.docx
+
+# Large demo media
+*.mp4
+runs/
+
+# OS junk
+Thumbs.db
+Desktop.ini

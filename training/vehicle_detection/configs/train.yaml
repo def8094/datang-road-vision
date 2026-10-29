@@ -1,0 +1,8 @@
+task: vehicle_detection
+algorithm: yolo26_detect_deepsort
+data: datasets/processed/vehicle_detection_3class/data.yaml
+model: yolo26n.pt
+epochs: 80
+imgsz: 640
+batch: 4
+time_hours: 1.8

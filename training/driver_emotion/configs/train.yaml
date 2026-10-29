@@ -1,0 +1,6 @@
+task: driver_emotion_classification
+algorithm: opencv_pytorch_cnn
+data: datasets/processed/driver_emotion_fer2013
+epochs: 30
+batch_size: 128
+time_hours: 1.8
